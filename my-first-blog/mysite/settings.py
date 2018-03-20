@@ -25,7 +25,7 @@ SECRET_KEY = 'y26*jy-v1$p9)xgr3ylevz6-5rd7r5aq1gkav4)+h_)7o-b4z2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'pepllu.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', 'pepllu.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
