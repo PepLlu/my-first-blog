@@ -24,6 +24,6 @@ if form.is_valid():
 	post.author = request.user
 	post.save()
 return redirect('post_detail', pk=post.pk)
-else:
+	else:
 	form = PostForm(instance=post)
 return render(request, 'blog/post_edit.html', {'form': form})
